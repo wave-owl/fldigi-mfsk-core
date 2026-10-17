@@ -1,0 +1,6 @@
+# stem fldigi-sname text index samplerate samples tail-s tx-offset-Hz fnv1a64 -- fldigi TX at 1500 + offset, fldigi RX at 1500 with --benchmark-afc 1
+mfsk4_afc MFSK4 cq 13 8000 290816 30 1 b6c54cacd01c3988
+mfsk8_afc MFSK8 cq 14 8000 145408 20 1 9bb1ff4a951ced0a
+mfsk16_afc MFSK16 cq 15 8000 92160 12 3 d835394a7a7fa9f3
+mfsk32_afc MFSK32 cq 16 8000 46592 12 -6 3346c14fd7c4fc6d
+mfsk22_afc MFSK22 cq 17 11025 92672 12 4 25de8c766098d3fd
