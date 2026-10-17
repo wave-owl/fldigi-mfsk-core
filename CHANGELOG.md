@@ -3,6 +3,11 @@
 All notable changes to fldigi-mfsk-core. Versions follow semantic versioning; the contract
 tag `mfsk-c1` changes only with an incompatible API change.
 
+## 0.1.1 - 2026-10-17
+
+- `rx_init` and `reset_afc` cite the fldigi lines they port (wave-owl's citation gate,
+  R-830.2). No functional change.
+
 ## 0.1.0 - 2026-10-17
 
 First release, for wave-owl change `add-fldigi-mfsk-core` (umbrella

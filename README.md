@@ -151,7 +151,7 @@ All declarations are in `include/fldigi_mfsk.h`.
 
 | Function | Description |
 |---|---|
-| `fmfsk_version()`, `fmfsk_abi()` | `"fldigi-mfsk-core 0.1.0 contract=mfsk-c1 abi=1 tx=1"`, 1 |
+| `fmfsk_version()`, `fmfsk_abi()` | `"fldigi-mfsk-core 0.1.1 contract=mfsk-c1 abi=1 tx=1"`, 1 |
 | `fmfsk_submode_count()`, `fmfsk_submode_at(i)`, `fmfsk_submode_find(name)` | The 11 submodes (table above), case-insensitive lookup. |
 | `fmfsk_rx_create(const fmfsk_rx_config *)` | `submode`, `carrier_hz`, `input_rate` (0: the submode's rate; else converted inside), `afc`, `squelch` (0 off, else 0..100). NULL for an unknown submode, a carrier out of range, an unsupported rate. |
 | `fmfsk_rx_process(rx, x, n, text, max)` | Feed samples; returns the bytes fldigi prints (overflow dropped and counted, `fmfsk_rx_dropped`). |

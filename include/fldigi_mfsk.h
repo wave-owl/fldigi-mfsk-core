@@ -29,10 +29,10 @@
 extern "C" {
 #endif
 
-#define FMFSK_VERSION_STRING "0.1.0"
+#define FMFSK_VERSION_STRING "0.1.1"
 #define FMFSK_ABI 1
 
-/* "fldigi-mfsk-core 0.1.0 contract=mfsk-c1 abi=1 tx=1". Static string. The contract tag
+/* "fldigi-mfsk-core 0.1.1 contract=mfsk-c1 abi=1 tx=1". Static string. The contract tag
  * changes only with an incompatible API change; tx=1 announces the transmitter. */
 const char *fmfsk_version(void);
 int fmfsk_abi(void);                    /* FMFSK_ABI */

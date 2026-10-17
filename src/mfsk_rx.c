@@ -67,12 +67,14 @@ static void set_freq(fmfsk_rx *rx, double freq)
 
 static void reset_afc(fmfsk_rx *rx)
 {
+    /* mfsk::reset_afc, mfsk.cxx:786-790 */
     rx->freqerr = 0.0;
     fdsp_movavg_reset(&rx->syncfilter);
 }
 
 static void rx_init(fmfsk_rx *rx)
 {
+    /* mfsk::rx_init, mfsk.cxx:95-122 */
     int i, n;
     rx->rxstate = RX_STATE_DATA;
     rx->synccounter = 0;
