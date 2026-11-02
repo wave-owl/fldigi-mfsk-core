@@ -284,3 +284,12 @@ GPL-3.0-or-later, as fldigi. MFSK by Dave Freese W1HKJ and John Douyere VK2ETA (
 speed and L modes) in fldigi 4.2.13, after gmfsk by Tomi Manninen OH2BNS; MFSK varicode by
 Nino Porcino IZ8BLY. The C port and the tests: Gerolf Ziegenhain DG6FL, 2026. See
 `CHANGELOG.md`.
+
+<!-- wave-owl-source-sbom-docs:start -->
+## Source SBOMs
+
+Every published release, including prereleases, receives automatically generated
+CycloneDX JSON and readable documentation. See the [initial source report](SBOM.md),
+[CycloneDX JSON](SBOM.cdx.json) and [release policy](SBOM-POLICY.md) for scope,
+release assets, provenance declarations and reproduction instructions.
+<!-- wave-owl-source-sbom-docs:end -->
